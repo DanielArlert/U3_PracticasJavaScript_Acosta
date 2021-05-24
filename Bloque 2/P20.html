@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="text/javascript" src="JavaScript/P20.js"> </script>
+    <link rel="stylesheet" href="Estilos_Generales/Estilos.css">
+    <title>PRÁCTICA 20</title>
+</head>
+ 
+<body>
+    <section id="contenedor">
+
+        <h1>PRÁCTICA 20.</h1>
+        <i>TEXT AREA</i>
+        
+        <div id="contenido_contenedor">
+            <div id="info">Máximo 100 caracteres.</div>
+            <textarea id="texto" onkeypress="return limita(event, 100);" onkeyup="actualizaInfo(100)" rows="6" cols="30"></textarea>
+        </div>
+
+    </section>
+</body>
+
+</html>
